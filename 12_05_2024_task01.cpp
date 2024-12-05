@@ -7,8 +7,14 @@ public:
 	void operator++() {
 		++a;
 	}
-	void operator++(int) {
-		a--;
+//
+//	void operator++(int) {
+//		a--;
+//	}
+
+mathematics operator++(int) {
+		mathematics obj;
+		return obj;
 	}
 	void operator--() {
 		a--;
