@@ -12,10 +12,16 @@ public:
 //		a--;
 //	}
 
-mathematics operator++(int) {
-		mathematics obj;
+//mathematics operator++(int) {
+//		mathematics obj;
+//		return obj;
+//	}
+
+	mathematics operator++(int) {
+		mathematics obj = *this;
 		return obj;
 	}
+
 	void operator--() {
 		a--;
 	}
